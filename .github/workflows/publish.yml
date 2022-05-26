@@ -18,4 +18,4 @@ jobs:
         uses: softprops/action-gh-release@master
         with:
           generate_release_notes: true
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
